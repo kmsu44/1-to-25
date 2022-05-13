@@ -63,7 +63,7 @@ body{
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 1px;
+    gap: 5px;
 }
 
 #btncontainer{
