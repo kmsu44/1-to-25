@@ -76,7 +76,7 @@ body{
     position: absolute;
     background-color: white;
     border: 2px solid black;
-    font-size: 3em;
+    font-size: 2em;
     color: black;
 }
 #btncontainer button:hover{
