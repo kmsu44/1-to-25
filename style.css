@@ -63,7 +63,7 @@ body{
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 5px;
+    gap: 1px;
 }
 
 #btncontainer{
@@ -73,10 +73,11 @@ body{
 #btncontainer button{
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: relative;
+    margin: auto;
     background-color: white;
     border: 2px solid black;
-    font-size: 2em;
+    font-size: 1.5em;
     color: black;
 }
 #btncontainer button:hover{
@@ -85,5 +86,4 @@ body{
 footer{
     position: relative;
     text-align: right;
-    z-index: 0;
 }
